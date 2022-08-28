@@ -59,7 +59,7 @@ public class ProgramaCadastro {
                     }
                     String numeroTurma = JOptionPane.showInputDialog( "Digite o Numero da Turma ");
                     Turma turma = null;
-                    turma = new Turma(numeroTurma);
+                    turma = new Turma (numeroTurma);
 
                     if( turma != null){
 
